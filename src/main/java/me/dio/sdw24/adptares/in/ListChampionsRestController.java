@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@Tag(name = "/campeões", description = "Endpoint do domínio de Campeões LOL")
+@Tag(name = "Campeões", description = "Endpoint do domínio de Campeões LOL")
 @RestController
 @RequestMapping("/champions")
 public record ListChampionsRestController(ListChampionsUseCase userCase) {
