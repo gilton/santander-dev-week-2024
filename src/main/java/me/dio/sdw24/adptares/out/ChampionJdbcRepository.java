@@ -1,4 +1,4 @@
-package me.dio.sdw24.adptares.out.out;
+package me.dio.sdw24.adptares.out;
 
 import me.dio.sdw24.domain.model.Champion;
 import me.dio.sdw24.domain.ports.ChampionsRepository;
